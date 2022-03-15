@@ -22,7 +22,8 @@ export default function Home() {
         <p>Returns: </p>
         <code>&#123;id, token&#125;</code>
         <p className={styles.description}>Route GET: /api/xml</p>
-        <p>Returns: xml file</p>
+        <p>Returns: json array</p>
+        <code>[&#123;xmlName, url&#125;,...]</code>
       </main>
     </div>
   );
